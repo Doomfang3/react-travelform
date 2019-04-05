@@ -2,7 +2,7 @@
   "name": "react-travelform",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://doomfang3.github.io/react-travelform/yarn",
+  "homepage": "https://doomfang3.github.io/react-travelform/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
