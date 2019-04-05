@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-travelform/yarn%20add%20gh-pages/precache-manifest.617c476a4b3d08827dfe542759a30de3.js"
+  "/react-travelform/yarn/precache-manifest.2a63e7429676ee082bf4f9ed1c63cde1.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-travelform/yarn%20add%20gh-pages/index.html", {
+workbox.routing.registerNavigationRoute("/react-travelform/yarn/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
