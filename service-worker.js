@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-travelform/yarn/precache-manifest.2a63e7429676ee082bf4f9ed1c63cde1.js"
+  "/react-travelform/precache-manifest.4497b78028b84cd9b08889282cc1edfc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-travelform/yarn/index.html", {
+workbox.routing.registerNavigationRoute("/react-travelform/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
